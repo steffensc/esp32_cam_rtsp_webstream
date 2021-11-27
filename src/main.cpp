@@ -23,7 +23,7 @@ const char *wifi_password = WIFI_PASS;
 
 #define MAX_UDP_PACKET_SIZE 1400
 
-IPAddress server_ip(185, 162, 249, 50);
+IPAddress server_ip(111, 111, 111, 111); // change IP to your sever's
 uint16_t server_port = 9443;
 
 WiFiUDP udp;
